@@ -2744,7 +2744,7 @@ hr {
   background: #d19f68;
 }
 .best-pricing {
-  background: #fffdfB;
+  background: #fffdfb;
 }
 .best-pricing .pricing-list ul li {
   font-family: "Oswald", sans-serif;
@@ -2833,7 +2833,6 @@ hr {
   }
 }
 .best-pricing .pricing-img .pricing-img2 {
-
   bottom: 10%;
   left: 17%;
   margin-right: 20px;
@@ -2841,13 +2840,11 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .best-pricing .pricing-img .pricing-img2 {
     left: 8%;
-
   }
 }
 @media (min-width: 1401px) and (max-width: 1600px) {
   .best-pricing .pricing-img .pricing-img2 {
     left: 9%;
-  
   }
 }
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
@@ -5843,4 +5840,22 @@ del {
 }
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+.contact-us-box {
+  background-color: "#f8f8f8";
+  height: 100%;
+}
+
+.contact-us-box h3 {
+  font-size: 40px;
+  display: block;
+  color: #1d2434;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wrap-contact-us-button {
+  display: flex;
+  flex-direction: row;
 }
