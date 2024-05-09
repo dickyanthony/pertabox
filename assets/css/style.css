@@ -2697,7 +2697,25 @@ hr {
   display: inline-block;
   position: relative;
 }
+/* .service-area .services-caption .service-icon2 {
+  display: inline-block;
+  position: relative;
+} */
 .service-area .services-caption .service-icon::before {
+  background-image: url(../img/gallery/dot.png);
+  content: "";
+  width: 80px;
+  height: 135px;
+  position: absolute;
+  right: -29px;
+  top: -35px;
+  z-index: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.service-area .services-caption .service-icon2::before {
   background-image: url(../img/gallery/dot.png);
   content: "";
   width: 80px;
@@ -2727,6 +2745,76 @@ hr {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+.service-area .services-caption .service-icon object {
+  position: relative;
+  color: #fff;
+  font-size: 10px;
+  height: 55px;
+  width: 55px;
+  display: block;
+  line-height: 105px;
+  text-align: center;
+  background: #1d2434;
+
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.service-area .services-caption .service-icon .testing {
+  position: relative;
+  color: #fff;
+  font-size: 10px;
+  height: 105px;
+  width: 105px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  line-height: 105px;
+  text-align: center;
+  background: #1d2434;
+  margin-bottom: 42px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.service-area .services-caption .service-icon img {
+  position: relative;
+  color: #fff;
+  font-size: 10px;
+
+  display: block;
+  line-height: 105px;
+  text-align: center;
+  background: #1d2434;
+  margin-bottom: 42px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.service-icon2 {
+  position: relative;
+  color: #fff;
+  font-size: 10px;
+  width: 105px;
+  height: 105px;
+  display: block;
+  line-height: 105px;
+  text-align: center;
+  background: #1d2434;
+  margin-bottom: 42px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .service-area .services-caption .service-cap h4 a {
   font-size: 24px;
   font-weight: 700;
@@ -2742,6 +2830,28 @@ hr {
   right: -32px;
 }
 .services-caption:hover .service-icon i {
+  background: #d19f68;
+}
+
+.services-caption:hover .service-icon2 {
+  background: #d19f68;
+}
+
+.services-caption:hover .service-icon .testing {
+  background: #d19f68;
+}
+.services-caption:hover .service-icon object {
+  background: #d19f68;
+}
+
+.services-caption:hover .service-icon2::before {
+  right: -32px;
+}
+.services-caption:hover .service-icon2 i {
+  background: #d19f68;
+}
+
+.services-caption:hover .service-icon2 object {
   background: #d19f68;
 }
 .best-pricing {
