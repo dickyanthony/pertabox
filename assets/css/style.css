@@ -2732,6 +2732,7 @@ hr {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 27px;
+
   display: inline-block;
 }
 .service-area .services-caption .service-cap h4 a:hover {
@@ -2887,6 +2888,7 @@ hr {
   margin-bottom: 20px;
   padding-bottom: 30px;
   border-bottom: 1px solid #fff;
+  height: 120px;
 }
 .cut-details .single-cut .cut-descriptions span {
   color: #d19f68;
